@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
+    <PackageId>JsonEnvVar</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
 
     <LangVersion>latest</LangVersion>
