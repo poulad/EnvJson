@@ -33,7 +33,7 @@ namespace Microsoft.Extensions.Configuration
                 }
             }
 
-            byte[] bytes = Encoding.Default.GetBytes(value);
+            byte[] bytes = Encoding.UTF8.GetBytes(value);
             using (var stream = new MemoryStream(bytes))
             {
                 Data = JsonConfigurationFileParser.Parse(stream);
